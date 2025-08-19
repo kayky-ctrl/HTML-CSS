@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header{
+    background-image: linear-gradient(90deg, #4300eb 0%, #3799d6 100%);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    font-weight: 400;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 52vw;
+    background-color: #5895f767;
+}
+
+.pesquisa i {
+    color: #fffefe;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.pesquisa input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: rgba(53, 181, 245, 0);
+    color: white;
+}
+.pesquisa input::placeholder {
+    color: #a0aec0;
+    font-size: 0.9rem;
+}
+
+main{
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+article{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.dateHearte{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.dateHearte p{
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.dateHearte i{
+    color: #660bfa;
+    font-size: 1.2rem;
+}
+
+article h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 550;
+}
+
+article p{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+/* NOTICIA */
+
+.body{
+    background-color: #f4f4f4;
+}
+
+.title{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;  
+    justify-content: center;
+}
+
+.subtitle{
+    height: 100%;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.paragraph{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 20px;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+span{
+    font-weight: 600;
+    color: #660bfa;
+}
